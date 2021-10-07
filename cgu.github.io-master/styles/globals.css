@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans TC", "PingFang TC", "微軟正黑體", "Microsoft JhengHei",
+    "MingLiU", "sans-serif";
+  background-color: #F4F0E9;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  overflow-x: hidden;
+}
+
+footer>div {
+  width: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+.slick-dots {
+  bottom: -10%;
+}
+
+.slick-dots li button::before {
+  color: #F4943B;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #F4943B;
+  opacity: 1;
+}
+
+.slick-active {
+  z-index: 999;
+}
+
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:425px) {
+  .slick-dots {
+    bottom: -15%;
+  }
+}

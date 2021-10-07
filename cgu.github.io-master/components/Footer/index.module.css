@@ -1,0 +1,57 @@
+.contact {
+  background: #5A7160;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+  padding: 30px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ftlogo {
+  height: auto;
+  top: 30px;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: right;
+}
+
+@media screen and (max-width: 770px) {
+  .contact {
+    padding: 20px 20px 20px;
+  }
+
+  .ftlogo {
+    top: 50px;
+  }
+
+  .ftlogo>img {
+    height: 30px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact {
+    padding: 20px 20px 20px;
+  }
+
+  .ftlogo>img {
+    height: 26px;
+  }
+
+  .ftlogo {
+    top: 30px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}
