@@ -58,7 +58,7 @@ export default function Photo() {
     { id: '109-2', position: '工學大樓', year: 109 },
     { id: '109-3', position: '第二醫學大樓', year: 109 },
     { id: '109-4', position: '志道樓', year: 109 },
-    { id: '109-5', position: '志清湖', year: 109 },
+    { id: '109-5', position: '志道樓', year: 109 },
     { id: '109-6', position: '志清湖', year: 109 },
   ];
 
