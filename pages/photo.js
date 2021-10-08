@@ -6,7 +6,7 @@ import Gallery from 'react-grid-gallery';
 import { useState, useEffect } from 'react';
 import GalleryOption from '../components/GalleryOption';
 
-const prefix = '/cgu.github.io';
+const prefix = '/cgu.github.io-master';
 export default function Photo() {
   const router = useRouter();
   const bannerList = [
