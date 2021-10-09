@@ -1,7 +1,7 @@
 import styles from './index.module.css';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-const prefix = '/cgu.github.io';
+const prefix = '/cgu.github.io-master';
 //const prefix = '';
 const Option = ({ category, dataList, getData }) => {
   const list = [];
