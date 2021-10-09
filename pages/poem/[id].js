@@ -3,7 +3,7 @@ import Container from '../../components/Container';
 import Card from '../../components/Card';
 import styles from '../../styles/poem.module.css';
 import { useRouter } from 'next/router';
-const prefix = '/cgu.github.io';
+const prefix = '/cgu.github.io-master';
 export default function Poem() {
   const router = useRouter();
   const dataList = [
