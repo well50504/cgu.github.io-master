@@ -1355,7 +1355,7 @@ export default function Filter() {
       title: "百年據德",
       author: "陳泓宇",
       position: "據德樓",
-      image: "109-105",
+      image: "109-105.png",
       line1: "據立青山路，",
       line2: "德樓育子賢。",
       line3: "真坡心體健，",
