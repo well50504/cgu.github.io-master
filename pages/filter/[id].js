@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 
 import Link from "next/link";
-const prefix = "/cgu.github.io";
+const prefix = "/cgu.github.io-master";
 export default function Filter() {
   const router = useRouter();
   const dataList = [
