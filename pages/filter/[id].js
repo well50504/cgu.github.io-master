@@ -1017,7 +1017,7 @@ export default function Filter() {
       title: "晨遊志清",
       author: "蘇湘庭",
       position: "志清湖",
-      image: "108-79.png",
+      image: "108-79.PNG",
       line1: "涼霧沾衣潤，",
       line2: "初曦宛玉璃。",
       line3: "雁飛划靜水，",
