@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import ImgsViewer from 'react-images-viewer';
 import { useState } from 'react';
 
-const prefix = '/cgu.github.io';
+const prefix = '/cgu.github.io-master';
 export default function Photo() {
   const router = useRouter();
   const bannerList = [
