@@ -71,8 +71,8 @@ export default function Photo() {
   for (let x = 0; x < bannerList.length; x++) {
     if (bannerList[x].year == router.query.id) {
       IMAGE.push({
-        src: `/cgu.github.io/static/banner/${bannerList[x].id}.JPG`,
-        thumbnail: `/cgu.github.io/static/banner/${bannerList[x].id}.JPG`,
+        src: `/cgu.github.io-master/static/banner/${bannerList[x].id}.JPG`,
+        thumbnail: `/cgu.github.io-master/static/banner/${bannerList[x].id}.JPG`,
         thumbnailWidth: `640`,
         thumbnailHeight: `424`,
         caption: `${bannerList[x].position}  ${bannerList[x].year}`,
