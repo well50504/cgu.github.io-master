@@ -38,6 +38,10 @@ const GalleryOption = ({ category, dataList }) => {
       id: 8,
       value: 109,
     },
+    {
+      id: 9,
+      value: 110,
+    },
   ];
   let data = [];
   if (category == 'year') {
